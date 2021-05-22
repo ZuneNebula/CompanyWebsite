@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+.nav-link{
+    color: whitesmoke;
+}
+
+#brand-name{
+    color: whitesmoke;
+}
+
+.image-section{
+    background-image: url("/assets/header-2.jpg");
+    background-repeat: no-repeat;
+    object-fit:cover;
+}
+
+.white-section{
+    background-color: whitesmoke;
+    color: #000;
+}
+
+.colored-section{
+    background-color: cadetblue;
+    color: whitesmoke;
+}
+
+.colored-section2{
+    background-color: aqua;
+    color: whitesmoke;
+}
+
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+.carousel-image{
+    width: 50%;
+    margin: 20px;
+}
