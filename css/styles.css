@@ -54,6 +54,13 @@ nav{
     min-width: 300px;
     min-height: auto;
 }
+
+.heading-btn{
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
 /* CAROUSEL */
 
 .carousel-text{
@@ -67,3 +74,26 @@ nav{
 .social-icon{
     margin:0% 2% 2%;
 }
+
+
+/* CUSTOM SCROLLBAR */
+
+ /* width */
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  } 
