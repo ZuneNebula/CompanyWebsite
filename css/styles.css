@@ -51,7 +51,7 @@ nav{
 }
 .header-img{
     width: 50%;
-    min-width: 300px;
+    min-width: 240px;
     min-height: auto;
 }
 
@@ -63,6 +63,11 @@ nav{
 }
 
 /* CAROUSEL */
+
+.portfolio-heading{
+    padding: 4% 15% 0%;
+    text-align: left;
+}
 
 .carousel-text{
     margin-top: 2%;
