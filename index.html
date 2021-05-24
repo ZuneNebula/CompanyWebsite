@@ -18,6 +18,13 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
 
+    <!-- Font Awesome -->
+
+    <script
+      src="https://kit.fontawesome.com/97936d42d2.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Bootstrap Scripts -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -65,6 +72,17 @@
             </ul>
           </div>
         </nav>
+
+        <!-- title -->
+        <div class="row heading">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <h1>An intro to this company</h1>
+            <p>Talks more about the company</p>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <img class="header-img" src="../assets/carimg1" alt="" />
+          </div>
+        </div>
       </div>
     </section>
 
@@ -72,55 +90,57 @@
     <section class="colored-section" id="carousel">
       <div
         id="portfolio-carousel"
-        class="carousel slide"
+        class="carousel slide container-fluid"
         data-ride="carousel"
       >
+        <h1>Our Portfolio</h1>
         <div class="carousel-inner">
           <div class="carousel-item active container-fluid">
             <img src="assets/carimg2" class="carousel-image" alt="..." />
+            <h2 class="carousel-text">Image title 1</h2>
           </div>
           <div class="carousel-item container-fluid">
             <img src="assets/carimg3" class="carousel-image" alt="..." />
+            <h2 class="carousel-text">Image title 2</h2>
           </div>
           <div class="carousel-item container-fluid">
             <img src="assets/carimg4" class="carousel-image" alt="..." />
+            <h2 class="carousel-text">Image title 1</h2>
           </div>
         </div>
         <a
-        class="carousel-control-prev"
-        href="#portfolio-carousel"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#portfolio-carousel"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+          class="carousel-control-prev"
+          href="#portfolio-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#portfolio-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </section>
 
     <!-- project showcase -->
-    <section id="projects">
-        <div class="jumbotron container-fluid">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-          </div>
-    </section>
+    <section class="colored-section" id="projects"></section>
 
     <!-- footer -->
-    <footer class="colored-section">
-      <div class="container-fluid">copyright 2021</div>
+    <footer class="colored-section2">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-facebook"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>copyright 2021</p>
+      </div>
     </footer>
   </body>
 </html>

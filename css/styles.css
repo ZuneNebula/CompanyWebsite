@@ -1,5 +1,39 @@
 body{
     text-align: center;
+    line-height: 1.5;
+}
+
+/* CONTAINERS AND SECTIONS */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+.image-section{
+    background-color: black;
+    color: white;
+    /* background-image: url("../assets/header-2.jpg");
+    background-repeat: no-repeat;
+    object-fit:cover;*/
+} 
+
+.white-section{
+    background-color: white;
+    color: black;
+}
+
+.colored-section{
+    background-color: gray;
+    color: white;
+}
+
+.colored-section2{
+    background-color: black;
+    color: white;
+}
+
+/* NAV */
+nav{
+    text-align: right;
 }
 
 .nav-link{
@@ -10,33 +44,26 @@ body{
     color: whitesmoke;
 }
 
-.image-section{
-    background-image: url("../assets/header-2.jpg");
-    background-repeat: no-repeat;
-    object-fit:cover;
+/* HEADING */
+.heading{
+    text-align: left;
+    padding-top: 4%;
 }
-
-.white-section{
-    background-color: whitesmoke;
-    color: #000;
-}
-
-.colored-section{
-    background-color: cadetblue;
-    color: whitesmoke;
-}
-
-.colored-section2{
-    background-color: aqua;
-    color: whitesmoke;
-}
-
-
-.container-fluid{
-    padding: 7% 15%;
-}
-
-.carousel-image{
+.header-img{
     width: 50%;
-    margin: 20px;
+    min-width: 300px;
+    min-height: auto;
+}
+/* CAROUSEL */
+
+.carousel-text{
+    margin-top: 2%;
+}
+.carousel-image{
+    width: 70%;
+}
+
+/* FOOTER */
+.social-icon{
+    margin:0% 2% 2%;
 }
