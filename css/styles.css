@@ -48,8 +48,15 @@ nav{
 /* HEADING */
 .heading{
     text-align: left;
-    padding-top: 4%;
+    padding-top: 40px;
+    -webkit-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
 }
+
+.row.heading.open{
+    margin-top: 140px;
+}
+
 .header-img{
     width: 50%;
     min-width: 240px;
