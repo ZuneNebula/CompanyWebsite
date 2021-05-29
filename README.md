@@ -9,7 +9,10 @@ Coding - FYI
 3) All styles must be defined in styles.css, named descriptively and placed according to the following order -
 
     a) General All Encompassing Classes/Tags, eg body, headings
+
     b) Across website styling classes, eg divs, sections
+
     c) Content Specific classes ordered by appearance (so nav -> carousel -> footer)
+
 4) Follow the general layout when adding new files.
 5) Any changes submitted must have adequate description and should not break the website in any way.
