@@ -9,11 +9,11 @@ body{
 }
 
 .image-section{
-    background-color: black;
+    /* background-color: black;*/
     color: white;
-    /* background-image: url("../assets/header-2.jpg");
+    background-image: url("../assets/bubbles.jpg");
     background-repeat: no-repeat;
-    object-fit:cover;*/
+    background-size: cover;
 } 
 
 .white-section{
@@ -22,18 +22,25 @@ body{
 }
 
 .colored-section{
-    background-color: gray;
-    color: white;
+    background-color: #8B89D9;
+    color: black
 }
 
-.colored-section2{
-    background-color: black;
+.colored-section-2{
+    background-color: #111440;
     color: white;
+}
+/* ALLIGNMENTS */
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
 }
 
 /* NAV */
 nav{
-    background-color: black;
+    background-color: #111440;
     text-align: right;
 }
 
