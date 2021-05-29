@@ -16,3 +16,5 @@ Coding - FYI
 
 4) Follow the general layout when adding new files.
 5) Any changes submitted must have adequate description and should not break the website in any way.
+6) Comment out things instead of deleting when submitting pull requests, such as tags, js code, or even hexcode numbers.
+7) Refer to Task Order on the google drive if you wanna know what to work on.
