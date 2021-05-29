@@ -2,6 +2,7 @@ Company Name Website
 Work in Progress -
 
 Coding - FYI
+
 0) USAGE - HTML 5/ BOOTSTRAP 4/ JAVASCRIPT/JQUERY
 1) Feel free to fork and send pull requests for devs and clone repo for non devs. 
 2) Please check documentation of above if there's confusion regarding any classes/elements.
