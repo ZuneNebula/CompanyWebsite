@@ -7,6 +7,7 @@ Coding - FYI
 1) Feel free to fork and send pull requests for devs and clone repo for non devs. 
 2) Please check documentation of above if there's confusion regarding any classes/elements.
 3) All styles must be defined in styles.css, named descriptively and placed according to the following order -
+
     a) General All Encompassing Classes/Tags, eg body, headings
     b) Across website styling classes, eg divs, sections
     c) Content Specific classes ordered by appearance (so nav -> carousel -> footer)
